@@ -79,7 +79,7 @@ namespace MyShop.Services
             {
                 item = new BasketItem()
                 {
-                    Id = basket.Id,
+                    BasketId = basket.Id,
                     ProductId = productId,
                     Quantity = 1
                 };
